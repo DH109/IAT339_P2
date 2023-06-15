@@ -1,0 +1,32 @@
+@font-face{
+    font-family: "Poppins-Regular";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Poppins-Regular.ttf);
+   
+}
+
+@font-face{
+    font-family: "Poppins-Bold";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Poppins-Bold.ttf);
+   
+}
+
+/* https://freefontsfamily.com/helvetica-font-family/#google_vignette */
+@font-face{
+    font-family: "Helvetica-Regular";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Helvetica-Regular.ttf);
+   
+}
+
+@font-face{
+    font-family: "Helvetica-Bold";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Helvetica-Bold.ttf);
+   
+}
