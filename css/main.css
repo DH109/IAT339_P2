@@ -1,0 +1,273 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: "Poppins-Regular";
+  background-color: #e0d7d1;
+  padding: 2rem;
+}
+
+.element {
+  padding-bottom: 3rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h1 {
+	font-family: "Poppins-Regular";
+	font-weight: 800;
+	font-size: 3rem;
+	margin-bottom: 1.5rem;
+  color:  #E35D73
+  
+}
+h2 { 
+	font-family:"Poppins-bold";
+	font-size: 2rem;
+  color:  #E35D73
+
+}
+h3 {
+	font-family:"Poppins-Regular";
+	font-size: 1.5rem;
+  color: #E35D73
+  
+}
+h4 {
+	font-family:"Helvetica-Regular";
+	font-size: 1.2rem;
+	
+}
+
+h5 { 
+	font-family:"Poppins-bold";
+	font-size: 2.5rem;
+  color:  black;
+
+}
+
+p {
+  font-family:"Poppins-Regular";
+  margin-top: 0;
+  max-width: 75%;
+}
+
+a{
+background-color: #E35D73;
+  color: white;
+  padding:2rem;
+  
+}
+
+a:hover, a:focus{
+  color: #E35D73;
+  background-color: white;
+  text-decoration: none;
+ 
+}
+
+nav a{
+  color: white;
+}
+
+nav a:hover, nav a:focus {
+  
+ 
+  color: white;
+  background-color: #E35D73;
+  text-decoration: none;
+  
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: #E35D73;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  margin-top: 10px;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #F7D7DC;
+}
+
+.buttoncon {
+  display:inline-block;
+  padding: 0.5rem;
+  width: 300px;
+  color: white;
+  background-color: #E35D73;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  margin-top: 15px;
+  margin-left: 55px;
+  text-align: center;
+}
+
+.buttoncon:hover, .buttoncon:focus {
+  background-color: #F7D7DC;
+}
+
+
+/*https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_figcaption_css */
+figcaption {
+  color: black;
+  padding: 4px;
+  text-align:center;
+  text-decoration: none;
+  margin-top: -1px;
+}
+
+figure {
+  margin: auto;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.inputBox {
+  position: relative;
+  width: 400px;
+}
+
+.inputBox input {
+  width: 100%
+  
+}
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form*/
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 15px 20px 15px 20px;
+  border: 1px solid #7C501B;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #7C501B;
+  border-radius: 3px;
+}
+
+label {
+  margin-right: auto;
+  display: block;
+  
+}
+
+.radioinput {
+  margin-top: -23px;
+  margin-left: 30px;
+  display: block;
+}
+
+/* https://www.w3schools.com/css/css_boxmodel.asp */
+box {
+  width: 320px;
+  padding: 25px;
+  border: 2px solid #7C501B;
+  margin: 0;
+}
+
+.checkout {
+  margin-top: 60px;
+  margin-left: 150px;
+  display: block;
+}
+
+.checkouttext {
+  margin-top: -300px;
+  margin-bottom: 140px;
+  margin-left: 400px;
+  display: block;
+}
+
+.buttoncheck {
+  display: inline-block;
+  width: 150px;
+  padding: 0.5rem;
+  color: white;
+  background-color: #E35D73;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.checkoutbut{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  text-align: center;
+  display: block;
+}
+
+.buttonc {
+  display: inline-block;
+  width: 250px;
+  padding: 0.5rem;
+  color: white;
+  background-color: #E35D73;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.buttonc:hover, .buttonc:focus {
+  background-color: #F7D7DC;
+}
+
+.buttoncheck:hover, .buttoncheck:focus {
+  background-color: #F7D7DC;
+}
