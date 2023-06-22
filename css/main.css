@@ -55,13 +55,15 @@ p {
 }
 
 a{
-  color: #7C501B;
+background-color: #E35D73;
+  color: white;
+  padding:2rem;
   
 }
 
 a:hover, a:focus{
-  color: white;
-  background-color: #E35D73;
+  color: #E35D73;
+  background-color: white;
   text-decoration: none;
  
 }
