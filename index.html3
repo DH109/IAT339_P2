@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <title>MakeMyGift</title>
+
+    <!--link it to css-->
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href ="css/fonts.css">
+    <link href="css/grid.css" rel="stylesheet">
+
+
+  </head>
+
+  
+  <body>
+
+    <header>
+      <h1>Make My Gift</h1>
+
+  
+        <section id="interactive_element">
+          <section id="text_elements">
+            <section id="combined_elements">
+              <section id="citations">
+          
+            
+        <nav class="grid-container grid">
+        <a href="./index.html">Home</a>
+        <a href="./index2.html">Products</a>
+        <a href="./index3.html">Basket</a>
+        <a href="./index4.html">Contact Us</a>
+      </nav>
+
+      </section>
+    </section>
+  </section>
+</section>
+
+
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+        <div class="container">
+        <div class = "checkout" >
+          <img src = images/Cake_image1.jpg alt="Cake" width="350" height="350">
+          <div class ="checkouttext" > 
+          <h3>Truffle Royale Chocolate Cake 8"</h3>
+          <p>A layer of milk chocolate truffle and a layer of white chocolate truffle sit atop a layer of rich 
+            food cake. Decorated with a dark chocolate coating and waves of white chocolate swirls. It also comes
+          comes with birthday candles color flame and cake toppers.</p>
+          <h4>Cost $76.99</h4>
+          <a class="buttoncheck" href="#">Add</a>  
+              <a class="buttoncheck" href="#">Remove</a>
+          </div>
+          </div>
+
+          <div class = "checkout" >
+            <img src = images/roses.jpg alt="Rose" width="350" height="350">
+            <div class ="checkouttext" > 
+            <h3>Truffle Royale Chocolate Cake 8"</h3>
+            <p>The Garden Roses Rainbow Bouquet includes the most beautiful assortment of 
+              elegant garden roses in various shades of light and bright pink, peach, and white. It provides three options 
+               to choose from and it also provides the option of  custom design by customers.</p>
+               <h4>Cost $109.99</h4>
+               <a class="buttoncheck" href="#">Add</a>  
+              <a class="buttoncheck" href="#">Remove</a>
+              </div>
+            </div>
+            <div class = "checkoutbut" >
+             <h5>The total amount is C$ 186.98</h5>
+             <a class="buttonc" href="#">Process to Checkout</a>
+              </div>
+        </div>
+    
+          </div>
+       
+         
+      </section>
+
+      <section class="element">
+        <h3>Payment Form</h3>
+
+        <div class="row">
+          <div class="col-75">
+            <div class="container">
+              <form action="/action_page.php">
+              
+                <div class="row">
+                  <div class="col-50">
+                    <h3>Billing Address</h3>
+                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="John M">
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="text" id="email" name="email" placeholder="john@example.com">
+                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="New York">
+        
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state" placeholder="NY">
+                      </div>
+                      <div class="col-50">
+                        <label for="zip">Zip</label>
+                        <input type="text" id="zip" name="zip" placeholder="10001">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-50">
+                    <h3>Payment</h3>
+                    <label for="cname">Name on Card</label>
+                    <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                    <label for="ccnum">Credit card number</label>
+                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                    <label for="expmonth">Exp Month</label>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="expyear">Exp Year</label>
+                        <input type="text" id="expyear" name="expyear" placeholder="2018">
+                      </div>
+                      <div class="col-50">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <label>
+                  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                </label>
+                
+                <a class="button-nav" href="#">Confirm payment</a>
+              </form>
+              
+            </div>
+          </div>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    
+
+    
