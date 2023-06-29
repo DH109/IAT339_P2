@@ -4,18 +4,66 @@
 */
 body {
   font-family: "Poppins-Regular";
-  background-color: #e0d7d1;
+  background-color: #ebe4df;
   padding: 2rem;
 }
 
-footer{
-  
-  padding:2rem;
-  margin-top:10rem;
-  width: 100%;
-  background-color: #E35D73;
+.footer{
+  margin-top: 150px;
+width:100%;
+padding:100px 15%;
+background:#333;
+color:#efefef;
+display:flex;
+}
+
+.footer div{
+  text-align:center;
+}
+
+.col-2{
+  flex-grow:2;
+}
+
+.footer div h3{
+  font-weight:300;
+  margin-bottom:30px;
+  letter-spacing: 1px;
+}
+
+.col-1 a{ 
+  display:block;
+  text-decoration:none;
+  color: #efefef;
+  margin-bottom:10px;
+}
+
+form input{
+  width:400px;
+  height:45px;
+  border-radius:4px;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:40px;
+  outline:none;
+  border:none;
+}
+
+form button{
+  background:transparent;
+  border: 2px solid #fff;
   color: white;
-  text-align: center;
+  
+  padding:10px 30px;
+  font-size:15px;
+  cursor:pointer; 
+}
+
+form button:hover{
+  transition-duration: 1s;
+  color: #E35D73;
+  border: 2px solid #E35D73;
+  
 }
 
 .element {
@@ -30,7 +78,7 @@ h1 {
 	font-weight: 800;
 	font-size: 3rem;
 	margin-bottom: 0rem;
-  color:  #E35D73
+  color:  #E35D73;
   
 }
 h2 { 
@@ -73,10 +121,12 @@ a{
   padding-left:3rem;
   padding-top:0.5rem;
   padding-bottom: 0.5rem;
+  text-decoration: none;
   
 }
 
 a:hover, a:focus{
+  transition-duration: 1s;
   color: #E35D73;
   background-color: white;
   text-decoration: none;
@@ -154,6 +204,19 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+.containers {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
 
 /*https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_figcaption_css */
 figcaption {
@@ -161,6 +224,7 @@ figcaption {
   padding: 2px;
   text-align:center;
   text-decoration: none;
+  font-weight:bold;
   margin-top: -1px;
   margin-left: -20px;
 }
