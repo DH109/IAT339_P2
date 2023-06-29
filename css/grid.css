@@ -11,11 +11,21 @@
 }
 
   .product-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
    
   }
+
+  .product-container > div {
+    margin: 1rem;
+}
+
+.product-container img {
+  border-radius: 10px 10px 0 0;
+}
+
 
   @media screen and (max-width: 120rem){
     .grid-container{

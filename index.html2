@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <title>MakeMyGift</title>
+
+    <!--link it to css-->
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href ="css/fonts.css">
+    <link href="css/grid.css" rel="stylesheet">
+
+
+  </head>
+
+  
+  <body>
+
+    <header>
+      <h1>Make My Gift</h1>
+
+  
+        <section id="interactive_element">
+          <section id="text_elements">
+            <section id="combined_elements">
+              <section id="citations">
+          
+            
+        <nav class="grid-container grid">
+        <a href="./index.html">Home</a>
+        <a href="./index2.html">Products</a>
+        <a href="./index3.html">Basket</a>
+        <a href="./index4.html">Contact Us</a>
+      </nav>
+
+      </section>
+    </section>
+  </section>
+</section>
+
+      <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_images_side_by_side-->
+     <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_product_card-->
+        <h2>All Cakes</h2>
+        <section class="element">
+        <div class = "product-container">
+          
+          <div class="cake">
+          <figure>
+          <img src = images/Cake_image1.jpg alt="Cake" width="400" height="400">
+        <figcaption>Truffle Royale Chocolate Cake 8" </figcaption>
+        <figcaption> C$76.99 </figcaption>
+        <form action="/action_page.php">
+         <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+        </figure>
+        </div>
+
+        <div class="cake">
+        <figure>
+          <img src = images/Cake_image2.webp alt="Cake" width="400" height="400">
+        <figcaption>Black Forest Round Cake </figcaption>
+        <figcaption> C$79.99 </figcaption>
+        <form action="/action_page.php">
+         <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+        </figure>
+        </div>
+
+        <div class="cake">
+        <figure>
+          <img src = images/Cake_image3.webp alt="Cake" width="400" height="400">
+        <figcaption>Mango Madness Cake </figcaption>
+        <figcaption> C$85.00 </figcaption>
+        <form action="/action_page.php">
+         <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+        </figure>
+      </div>
+
+      <!--
+      <div class="cake">
+        <figure>
+          <img src = images/Cake_image4.webp alt="Cake" width="400" height="400">
+        <figcaption>Cookies & Cream Cheesecake 8" </figcaption>
+        <figcaption> C$76.99 </figcaption>
+        <form action="/action_page.php">
+         <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+        </figure>
+      </div>
+    -->
+    </section>
+
+    <h2>All FLowers</h2>
+    <section class="element">
+      <div class = "product-container">
+      <div class="flower">
+        <figure>
+        <img src = images/roses3.webp alt="Cake" width="400" height="400">
+      <figcaption>Red Roses Bouquet </figcaption>
+      <figcaption> C$79.99 </figcaption>
+      <form action="/action_page.php">
+       <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+      </figure>
+      </div>
+
+      <div class="flower">
+        <figure>
+        <img src = images/roses.jpg alt="Cake" width="400" height="400">
+      <figcaption>Garden Roses Rainbow Bouquet </figcaption>
+      <figcaption> C$109.99 </figcaption>
+      <form action="/action_page.php">
+       <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+      </figure>
+      </div>
+
+      <div class="flower">
+        <figure>
+        <img src = images/roses2.webp alt="Cake" width="400" height="400">
+      <figcaption>Hot Pink 12 Stem Roses Bouquet </figcaption>
+      <figcaption> C$79.99" </figcaption>
+      <form action="/action_page.php">
+       <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+      </figure>
+      </div>
+
+      <!--
+      <div class="flower">
+        <figure>
+        <img src = images/roses4.webp alt="Cake" width="400" height="400">
+      <figcaption>Mixed Flowers Carnation, Lily & Rose Bouquet </figcaption>
+      <figcaption> C$129.99" </figcaption>
+      <form action="/action_page.php">
+       <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+      </figure>
+      </div>
+      -->
+    </section>
+
+    <h2>All Watches</h2>
+    <section class="element">
+      <div class = "product-container">
+      <div class="watches">
+        <figure>
+        <img src = images/Watch1.webp alt="Cake" width="400" height="400">
+      <figcaption>Hugo Boss Men's Quartz Watch</figcaption>
+      <figcaption> C$379.99 </figcaption>
+      <form action="/action_page.php">
+       <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+      </figure>
+      </div>
+
+      <div class="watches">
+        <figure>
+        <img src = images/watch.jpg alt="Cake" width="400" height="400">
+      <figcaption>Tommy Hilfiger Casual Women's Watch </figcaption>
+      <figcaption> C$399.99 </figcaption>
+      <form action="/action_page.php">
+       <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+      </figure>
+      </div>
+
+      <div class="watches">
+        <figure>
+        <img src = images/watch2.webp alt="Cake" width="400" height="400">
+      <figcaption>Emporio Armani Men's Watch </figcaption>
+      <figcaption> C$330.99" </figcaption>
+      <form action="/action_page.php">
+       <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+      </figure>
+      </div>
+
+      <!--
+      <div class="watches">
+        <figure>
+        <img src = images/watch3.webp alt="Cake" width="400" height="400">
+      <figcaption>Emporio Armani Men's Watch </figcaption>
+      <figcaption> C$335.00" </figcaption>
+      <form action="/action_page.php">
+       <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+      </figure>
+      </div>
+    -->
+    </section>
+
+
+    
+ 
+<!--
+      <div class="row">
+        <div class="column">
+          <figure>
+        <img src = images/Cake_image1.jpg alt="Cake" width="400" height="400">
+      <figcaption>Truffle Royale Chocolate Cake 8" </figcaption>
+      <figcaption> C$76.99" </figcaption>
+      <form action="/action_page.php">
+       <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+      </figure>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <figure>
+      <img src = images/Cake_image1.jpg alt="Cake" width="400" height="400">
+    <figcaption>Truffle Royale Chocolate Cake 8" </figcaption>
+    <figcaption> C$76.99" </figcaption>
+    <form action="/action_page.php">
+     <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
+    </figure>
+    </div>
+  </div>
+
+      <div class="row">
+        <div class="column">
+          <figure>
+          <img src = images/roses.jpg alt="Rose" width="400" height="400">
+        <figcaption>Garden Roses Rainbow Bouquet</figcaption>
+        <figcaption> C$109.99" </figcaption>
+        <form action="/action_page.php">
+         <a class="buttoncon" href="https://makemygift.ca/collections/flowers/products/garden-roses-rainbow-bouquet">View item</a>
+         <figure>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <figure>
+         
+          <img src = images/watch.jpg alt="Watch" width="400" height="400">
+       <figcaption>Tommy Hilfiger Casual Women's Watch</figcaption>
+       <figcaption> C$399.99" </figcaption>
+        <form action="/action_page.php">
+         <a class="buttoncon" href="https://makemygift.ca/collections/watches/products/tommy-hilfiger-casual-womens-watch">View item</a>
+        </figure>
+        </div>
+      </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <figure>
+         
+          <img src = images/roses.jpg alt="Rose" width="400" height="400">
+        <figcaption>Garden Roses Rainbow Bouquet</figcaption>
+        <figcaption> C$109.99" </figcaption>
+        <form action="/action_page.php">
+         <a class="buttoncon" href="https://makemygift.ca/collections/flowers/products/garden-roses-rainbow-bouquet">View item</a>
+         <figure>
+        </div>
+      </div>
+    -->
+      </section>
+
+      </section>
+
+      
+
+ 
+    
