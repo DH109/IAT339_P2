@@ -76,7 +76,7 @@
         </figure>
       </div>
 
-      <!--
+      
       <div class="cake">
         <figure>
           <img src = images/Cake_image4.webp alt="Cake" width="400" height="400">
@@ -86,7 +86,7 @@
          <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
         </figure>
       </div>
-    -->
+
     </section>
 
     <h2>All FLowers</h2>
@@ -122,7 +122,7 @@
       </figure>
       </div>
 
-      <!--
+
       <div class="flower">
         <figure>
         <img src = images/roses4.webp alt="Cake" width="400" height="400">
@@ -132,7 +132,6 @@
        <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
       </figure>
       </div>
-      -->
     </section>
 
     <h2>All Watches</h2>
@@ -168,7 +167,6 @@
       </figure>
       </div>
 
-      <!--
       <div class="watches">
         <figure>
         <img src = images/watch3.webp alt="Cake" width="400" height="400">
@@ -178,7 +176,6 @@
        <a class="buttoncon" href="https://makemygift.ca/cart">View item</a>
       </figure>
       </div>
-    -->
     </section>
 
 
