@@ -4,14 +4,14 @@
 */
 body {
   font-family: "Poppins-Regular";
-  background-color: #ebe4df;
+  background-color: #f5efeb;
   padding: 2rem;
 }
 
 .footer{
   margin-top: 150px;
 width:100%;
-padding:100px 15%;
+padding:100px 10%;
 background:#333;
 color:#efefef;
 display:flex;
@@ -25,6 +25,7 @@ display:flex;
   flex-grow:2;
 }
 
+
 .footer div h3{
   font-weight:300;
   margin-bottom:30px;
@@ -36,6 +37,14 @@ display:flex;
   text-decoration:none;
   color: #efefef;
   margin-bottom:10px;
+}
+
+.col-3 p{ 
+  display:block;
+  text-decoration:none;
+  color: white;
+  margin-bottom:10px;
+  margin-left: 50px;
 }
 
 form input{
@@ -190,7 +199,59 @@ code {
 }
 
 .buttoncon:hover, .buttoncon:focus {
-  background-color: #F7D7DC;
+  background-color: white;
+  border: 2px solid #E35D73;
+}
+
+
+.buttonconhome {
+  display:inline-block;
+  padding: 0.5rem;
+  width: 300px;
+  color: white;
+  background-color: #E35D73;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  margin-top: 15px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.buttonconhome:hover, .buttonconhome:focus {
+  background-color: white;
+  border: 2px solid #E35D73;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+/*https://www.w3schools.com/howto/howto_css_checkout_form.asp*/
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
 }
 
 input[type=text], select, textarea {
@@ -306,13 +367,13 @@ box {
   transition-property: background-color; 
   transition-duration: 0.5s;
   text-align: center;
-  margin-left: 100px;
+  
 }
 
 .checkoutbut{
   margin-top: 10px;
   margin-bottom: 30px;
-  margin-left: 100px;
+  
   text-align: center;
   display: block;
 }
@@ -327,7 +388,7 @@ box {
   transition-property: background-color; 
   transition-duration: 0.5s;
   text-align: center;
-  margin-left: 40px;
+  
 }
 
 .buttonc:hover, .buttonc:focus {
