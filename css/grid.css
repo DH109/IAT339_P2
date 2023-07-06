@@ -28,13 +28,20 @@
   
 }
 
+.product-container img:hover {
+  transition-duration: 1s;
+  transform: scale(1.1);
+  border-radius: 70px 70px 70px 70px;
+  
+}
+
 
   @media screen and (max-width: 120rem){
     .grid-container{
     background-color: #E35D73;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-auto-flow: row;
-  /*     box-sizing: border-box; */
+
       text-align: center;
       grid-gap: 2rem;
       padding: 1rem;
