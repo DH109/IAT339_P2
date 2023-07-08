@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
 
@@ -17,32 +17,49 @@
 
   
   <body>
-
     <header>
-      <h1>Make My Gift</h1>
+      
 
   
-        <section id="interactive_element">
-          <section id="text_elements">
-            <section id="combined_elements">
-              <section id="citations">
+      <section id="interactive_element">
+        <section id="text_elements">
+          <section id="combined_elements">
+            <section id="citations">
+        
           
-            
-        <nav class="grid-container grid">
-        <a href="./index.html">Home</a>
-        <a href="./index2.html">Products</a>
-        <a href="./index3.html">Basket</a>
-        <a href="./index4.html">Contact Us</a>
-      </nav>
+              <div class="navbar">
+                
+                
+                
+                <a href="./index3.html">Basket</a>
+                <a href="./index4.html">Contact Us</a>
+                <a href="./P1 _styleguide/index.html">Style Guide</a>
+                <div class="home">
+                
+                <div class="dropdown">
+                  <button class="dropbtn">Products 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./index2.html">All Products</a>
+                    <a href="./cake.html">Cake</a>
+                    <a href="./flower.html">Flower</a>
+                    
+                    
+                  </div>
+                </div> 
+                <a href="./index.html">MakeMyGift</a>
 
-      </section>
+              </div>
+              </div>
+
     </section>
   </section>
 </section>
+</section>
+</header>
 
-
-
-<h3>Contact Form</h3>
+<h1>Contact Form</h1>
 
 <div class="container">
   <form action="/action_page.php">
@@ -64,4 +81,42 @@
 
     <input type="submit" value="Submit">
   </form>
+
+ 
+  <div class="contactmap">
+    <div class="contact-text">
+      <h2>
+        We are located at: <br>
+        <h3>Jasper Ave, Edmonton,<br>
+        A.B., T5J 1R9</h3><br>
+      <h2>
+      </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5322.634636060132!2d-113.49908154061927!3d53.54055599877082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a0224c3a04353b%3A0xe95c3be17dc1ae7e!2sJasper%20Ave%2C%20Edmonton%2C%20AB!5e0!3m2!1sen!2sca!4v1688587917593!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
 </div>
+</div>
+
+<div class="footer">
+  <div class="col-1">
+    <h3>USEFUL LINKS</h3>
+    <a href="./index.html">Home</a>
+    <a href="./index2.html">Products</a>
+    <a href="./index3.html">Basket</a>
+    <a href="./index4.html">Contact Us</a>
+    </div>
+
+    <div class="col-2">
+      <h3>NEWSLETTER</h3>
+      <form>
+        <input type="email" placeholder ="Your Email Address" required>
+        <br>
+        <button type="submit">SUBSCRIBE NOW</button>
+      </form>
+    </div>
+<div class="col-3">
+  <h3>CONTACT</h3>
+  <p> Jasper Ave, Edmonton, AB T5J 1R9</p>
+</div>
+</div>
+</html>
