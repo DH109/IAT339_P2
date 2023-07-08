@@ -8,8 +8,18 @@ body {
   padding: 2rem;
 }
 
+footer{
+  
+  padding:2rem;
+  margin-top:10rem;
+  width: 100%;
+  background-color: #E35D73;
+  color: white;
+  text-align: center;
+}
+
 .element {
-  padding-bottom: 3rem;
+  padding-top: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
   border-top-color: black;
@@ -19,7 +29,7 @@ h1 {
 	font-family: "Poppins-Regular";
 	font-weight: 800;
 	font-size: 3rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0rem;
   color:  #E35D73
   
 }
@@ -55,26 +65,34 @@ p {
 }
 
 a{
-  color: #7C501B;
+  
+  font-weight: bold;
+  background-color: #E35D73;
+  color: white;
+  padding-right:3rem;
+  padding-left:3rem;
+  padding-top:0.5rem;
+  padding-bottom: 0.5rem;
   
 }
 
 a:hover, a:focus{
-  color: white;
-  background-color: #E35D73;
+  color: #E35D73;
+  background-color: white;
   text-decoration: none;
  
 }
 
 nav a{
-  color: #7C501B;
+  color: white;
 }
+
 
 nav a:hover, nav a:focus {
   
  
-  color: white;
-  background-color: #E35D73;
+  background-color: white;
+  color: #E35D73;
   text-decoration: none;
   
 }
@@ -117,7 +135,7 @@ code {
   transition-property: background-color; 
   transition-duration: 0.5s;
   margin-top: 15px;
-  margin-left: 55px;
+  margin-left: -30px;
   text-align: center;
 }
 
@@ -125,14 +143,26 @@ code {
   background-color: #F7D7DC;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
 
 /*https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_figcaption_css */
 figcaption {
   color: black;
-  padding: 4px;
+  padding: 2px;
   text-align:center;
   text-decoration: none;
   margin-top: -1px;
+  margin-left: -20px;
 }
 
 figure {
@@ -151,41 +181,15 @@ figure {
   
 }
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form*/
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
+
+.cake, .flower, .watches {
+    box-shadow: 0 4px 8px 0 grey;
+    max-width: 450px;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 1rem;
 }
 
-.col-25 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-}
-
-.col-50 {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-}
-
-.col-75 {
-  -ms-flex: 75%; /* IE10 */
-  flex: 75%;
-}
-
-.col-25,
-.col-50,
-.col-75 {
-  padding: 0 16px;
-}
-
-.container {
-  background-color: #f2f2f2;
-  padding: 15px 20px 15px 20px;
-  border: 1px solid #7C501B;
-  border-radius: 3px;
-}
 
 input[type=text] {
   width: 400px;

@@ -11,6 +11,8 @@
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href ="css/fonts.css">
     <link href="css/grid.css" rel="stylesheet">
+    <link href="css/increment.css" rel="stylesheet">
+    <link href="css/increment.js" rel="stylesheet">
 
 
   </head>
@@ -19,134 +21,152 @@
   <body>
 
     <header>
-      <h1>Make My Gift</h1>
+      
 
   
-        <section id="interactive_element">
-          <section id="text_elements">
-            <section id="combined_elements">
-              <section id="citations">
+      <section id="interactive_element">
+        <section id="text_elements">
+          <section id="combined_elements">
+            <section id="citations">
+        
           
-            
-        <nav class="grid-container grid">
-        <a href="./index.html">Home</a>
-        <a href="./index2.html">Products</a>
-        <a href="./index3.html">Basket</a>
-        <a href="./index4.html">Contact Us</a>
-      </nav>
+              <div class="navbar">
+                
+                
+                
+                <a href="./index3.html">Basket</a>
+                <a href="./index4.html">Contact Us</a>
+                <div class="home">
+                
+                <div class="dropdown">
+                  <button class="dropbtn">Products 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./index2.html">All Products</a>
+                    <a href="./cake.html">Cake</a>
+                    <a href="./flower.html">Flower</a>
+                    
+                    
+                  </div>
+                </div> 
+                <a href="./index.html">MakeMyGift</a>
 
-      </section>
+              </div>
+              </div>
+
     </section>
   </section>
 </section>
+</section>
+</header>
 
 
+<h1>Checkout Cart</h1>
+<div class="container">
+<div class = "checkout" >
+  <img src = images/Cake_image1.jpg alt="Cake" width="350" height="350">
+  <div class ="checkouttext" > 
+  <h3>Truffle Royale Chocolate Cake 8"</h3>
+  <p>A layer of milk chocolate truffle and a layer of white chocolate truffle sit atop a layer of rich 
+    food cake. Decorated with a dark chocolate coating and waves of white chocolate swirls. It also comes
+  comes with birthday candles color flame and cake toppers.</p>
+  <h4>Cost $76.99</h4>
 
-      <section class="element">
-        <h3>Checkout Cart</h3>
-        <div class="container">
-        <div class = "checkout" >
-          <img src = images/Cake_image1.jpg alt="Cake" width="350" height="350">
-          <div class ="checkouttext" > 
-          <h3>Truffle Royale Chocolate Cake 8"</h3>
-          <p>A layer of milk chocolate truffle and a layer of white chocolate truffle sit atop a layer of rich 
-            food cake. Decorated with a dark chocolate coating and waves of white chocolate swirls. It also comes
-          comes with birthday candles color flame and cake toppers.</p>
-          <h4>Cost $76.99</h4>
-          <a class="buttoncheck" href="#">Add</a>  
-              <a class="buttoncheck" href="#">Remove</a>
-          </div>
-          </div>
+    <div class="wrapper">
+      <span class="minus">-</span>
+      <span class="num">1</span>
+      <span class="plus">+</span>
+    </div>
+    <script>
+     const plus = document.querySelector(".plus"),
+      minus = document.querySelector(".minus"),
+      num = document.querySelector(".num");
+      let a = 1;
+      plus.addEventListener("click", ()=>{
+        a++;
+        a = (a < 10) ? + a : a;
+        num.innerText = a;
+      });
+      minus.addEventListener("click", ()=>{
+        if(a > 1){
+          a--;
+          a = (a < 10 && a> 10) ?  + a : a;
+          num.innerText = a;
+        }
+      });
+    </script>
+  </div>
+  </div>
 
-          <div class = "checkout" >
-            <img src = images/roses.jpg alt="Rose" width="350" height="350">
-            <div class ="checkouttext" > 
-            <h3>Truffle Royale Chocolate Cake 8"</h3>
-            <p>The Garden Roses Rainbow Bouquet includes the most beautiful assortment of 
-              elegant garden roses in various shades of light and bright pink, peach, and white. It provides three options 
-               to choose from and it also provides the option of  custom design by customers.</p>
-               <h4>Cost $109.99</h4>
-               <a class="buttoncheck" href="#">Add</a>  
-              <a class="buttoncheck" href="#">Remove</a>
-              </div>
-            </div>
-            <div class = "checkoutbut" >
-             <h5>The total amount is C$ 186.98</h5>
-             <a class="buttonc" href="#">Process to Checkout</a>
-              </div>
-        </div>
-    
-          </div>
-       
-         
-      </section>
+  <div class = "checkout" >
+    <img src = images/roses.jpg alt="Rose" width="350" height="350">
+    <div class ="checkouttext" > 
+    <h3>Garden Roses Rainbow Bouquet</h3>
+    <p>The Garden Roses Rainbow Bouquet includes the most beautiful assortment of 
+      elegant garden roses in various shades of light and bright pink, peach, and white. It provides three options 
+       to choose from and it also provides the option of  custom design by customers.</p>
+       <h4>Cost $109.99</h4>
 
-      <section class="element">
-        <h3>Payment Form</h3>
+       <div class="wrappera">
+        <span class="minusone">-</span>
+        <span class="numone">1</span>
+        <span class="plusone">+</span>
+      </div>
+      <script>
+       const plusone = document.querySelector(".plusone"),
+        minusone = document.querySelector(".minusone"),
+        numone = document.querySelector(".numone");
+        let aa = 0;
+        plusone.addEventListener("click", ()=>{
+          aa++;
+          aa = (aa < 10) ?  + aa : aa;
+          numone.innerText = aa;
+        });
+        minusone.addEventListener("click", ()=>{
+          if(aa > 1){
+            aa--;
+            aa = (aa < 10) ?  + aa : aa;
+            numone.innerText = aa;
+          }
+        });
+      </script>
 
-        <div class="row">
-          <div class="col-75">
-            <div class="container">
-              <form action="/action_page.php">
-              
-                <div class="row">
-                  <div class="col-50">
-                    <h3>Billing Address</h3>
-                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="John M">
-                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                    <input type="text" id="email" name="email" placeholder="john@example.com">
-                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-                    <label for="city"><i class="fa fa-institution"></i> City</label>
-                    <input type="text" id="city" name="city" placeholder="New York">
-        
-                    <div class="row">
-                      <div class="col-50">
-                        <label for="state">State</label>
-                        <input type="text" id="state" name="state" placeholder="NY">
-                      </div>
-                      <div class="col-50">
-                        <label for="zip">Zip</label>
-                        <input type="text" id="zip" name="zip" placeholder="10001">
-                      </div>
-                    </div>
-                  </div>
-        
-                  <div class="col-50">
-                    <h3>Payment</h3>
-                    <label for="cname">Name on Card</label>
-                    <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-                    <label for="ccnum">Credit card number</label>
-                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                    <label for="expmonth">Exp Month</label>
-                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
-                    <div class="row">
-                      <div class="col-50">
-                        <label for="expyear">Exp Year</label>
-                        <input type="text" id="expyear" name="expyear" placeholder="2018">
-                      </div>
-                      <div class="col-50">
-                        <label for="cvv">CVV</label>
-                        <input type="text" id="cvv" name="cvv" placeholder="352">
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-                <label>
-                  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-                </label>
-                
-                <a class="button-nav" href="#">Confirm payment</a>
-              </form>
-              
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class = "checkoutbut" >
+     <h5>The total amount is C$ 186.98</h5>
+     <a class="buttonc" href="./payment.html">Process to Checkout</a>
+      </div>
+</div>
+  </div>
 
-    </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
+<!--
+  <a class="buttoncheck" href="#">Add</a>  
+  <a class="buttoncheck" href="#">Remove</a>
+  -->
+</section>
+</section>
+<!-- // COMBINED ELEMENTS SECTION -->
+<div class="footer">
+<div class="col-1">
+<h3>USEFUL LINKS</h3>
+<a href="./index.html">Home</a>
+<a href="./index2.html">Products</a>
+<a href="./index3.html">Basket</a>
+<a href="./index4.html">Contact Us</a>
+</div>
 
-    
-
-    
+<div class="col-2">
+  <h3>NEWSLETTER</h3>
+  <form>
+    <input type="email" placeholder ="Your Email Address" required>
+    <br>
+    <button type="submit">SUBSCRIBE NOW</button>
+  </form>
+</div>
+<div class="col-3">
+<h3>CONTACT</h3>
+<p> Jasper Ave, Edmonton, AB T5J 1R9</p>
+</div>
+</div>
