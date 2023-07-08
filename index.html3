@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
 
@@ -36,6 +36,7 @@
                 
                 <a href="./index3.html">Basket</a>
                 <a href="./index4.html">Contact Us</a>
+                <a href="./P1 _styleguide/index.html">Style Guide</a>
                 <div class="home">
                 
                 <div class="dropdown">
@@ -73,6 +74,7 @@
   comes with birthday candles color flame and cake toppers.</p>
   <h4>Cost $76.99</h4>
 
+  <!--https://www.codingnepalweb.com/button-increment-decrement-number/-->
     <div class="wrapper">
       <span class="minus">-</span>
       <span class="num">1</span>
@@ -108,6 +110,7 @@
        to choose from and it also provides the option of  custom design by customers.</p>
        <h4>Cost $109.99</h4>
 
+       <!--https://www.codingnepalweb.com/button-increment-decrement-number/-->
        <div class="wrappera">
         <span class="minusone">-</span>
         <span class="numone">1</span>
@@ -170,3 +173,4 @@
 <p> Jasper Ave, Edmonton, AB T5J 1R9</p>
 </div>
 </div>
+</html>
